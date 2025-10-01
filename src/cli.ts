@@ -8,7 +8,7 @@ import figlet from "figlet";
 import inquirer from "inquirer";
 import { IgApiClient } from "instagram-private-api";
 import ora from "ora";
-import { getAllItemsFromFeed, sleep, unfollowUser } from "./utils.js";
+import { getAllItemsFromFeed, sleep, unfollowUser } from "./utils.ts";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
